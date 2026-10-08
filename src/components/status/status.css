@@ -1,0 +1,67 @@
+.status_bar
+{
+    width: 100%;
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 24px;
+
+    background: #031B13;
+
+    border-bottom: 1px solid rgba(34 , 197 , 94 , 0.15);
+
+    box-shadow:
+        0 4px 20px rgba(0 , 0 , 0 , 0.25);
+
+    color: #F5F5F5;
+}
+
+.status_title
+{
+    position: absolute;
+    left: 300px;
+
+    font-family: "Nunito", sans-serif;
+
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    color: #D1FAE5;
+}
+
+.author
+{
+    position: absolute;
+    left: 1200px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-family: "Nunito", sans-serif;
+
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    color: #D1FAE5;
+}
+
+.author_logo
+{
+    width: 32px;
+    height: 32px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 1px solid rgba(34 , 197 , 94 , 0.35);
+
+    box-shadow:
+        0 0 10px rgba(34 , 197 , 94 , 0.12);
+}

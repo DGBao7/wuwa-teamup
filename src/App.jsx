@@ -1,22 +1,7 @@
 import "./styles/theme.css"
-
-function Search()
-{
-  return (
-    <div className="search">
-      abc
-    </div>
-  )
-}
-
-function Teamups()
-{
-  return (
-    <div className="teamups">
-      asd
-    </div>
-  )
-}
+import Search from "./components/search/search,"
+import Teamups from "./components/teamups/teamups"
+import Status from "./components/status/status"
 
 function Workspace()
 {
@@ -25,17 +10,6 @@ function Workspace()
       <Search />
 
       <Teamups />
-    </div>
-  )
-}
-
-function Status()
-{
-  return (
-    <div className="status_bar">
-      <div className="status_title">
-        WUWA-Teamups
-      </div>
     </div>
   )
 }

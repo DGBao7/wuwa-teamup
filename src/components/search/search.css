@@ -1,0 +1,158 @@
+.search
+{
+    padding: 24px;
+
+    background: #06150F;
+
+    border-right: 1px solid rgba(34 , 197 , 94 , 0.25);
+
+    color: #D1FAE5;
+}
+
+.search_input
+{
+    width: 100%;
+    height: 42px;
+
+    padding: 0 14px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(34 , 197 , 94 , 0.18);
+    border-radius: 10px;
+
+    outline: none;
+
+    background: #031B13;
+
+    color: #D1FAE5;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+.search_input::placeholder
+{
+    color: #6B8F80;
+}
+
+.search_input:focus
+{
+    border-color: rgba(34 , 197 , 94 , 0.55);
+
+    background: #041F16;
+
+    box-shadow:
+        0 0 0 3px rgba(34 , 197 , 94 , 0.08),
+        0 0 14px rgba(16 , 185 , 129 , 0.08);
+}
+
+.search_list
+{
+    margin-top: 16px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.search_item
+{
+    position: relative;
+
+    flex: 0 0 120px;
+
+    width: 120px;
+    height: 150px;
+
+    box-sizing: border-box;
+
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    background: #041F16;
+
+    color: #B7DCCB;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.search_item:hover
+{
+    background: #06291D;
+
+    border-color: rgba(34 , 197 , 94 , 0.2);
+
+    color: #D1FAE5;
+
+    transform: translateY(-3px);
+}
+
+.search_item.active
+{
+    background: #073A27;
+
+    border-color: rgba(34 , 197 , 94 , 0.35);
+
+    color: #6EE7B7;
+
+    box-shadow:
+        inset 3px 0 0 #22C55E;
+}
+
+.search_item img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.search_item_name
+{
+    position: absolute;
+    top: 115px;
+    left: 10px;
+
+    margin-top: 6px;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+
+    line-height: 1.2;
+
+    color: #D1FAE5;
+
+    text-align: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    max-width: 100%;
+}
