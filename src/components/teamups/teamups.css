@@ -6,3 +6,22 @@
 
     color: #F5F5F5;
 }
+
+.tutorial
+{
+    margin: 0;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    background: linear-gradient(
+        90deg,
+        #D1FAE5,
+        #34D399
+    );
+
+    background-clip: text;
+    color: transparent;
+}

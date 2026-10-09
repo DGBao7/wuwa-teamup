@@ -1,19 +1,34 @@
 import "./search.css"
 import { useState } from "react"
 
-import { _search_filter, _take_name } from "../../utils/search"
+import { _handle_choice, _search_filter } from "../../utils/search"
 
 function SearchItem(
     {
-        items   
+        items ,
+        user_choices , _set_user_choices
     }
 )
 {
     return (
         <>
-            {items.map(([name , image]) => {
+            {items.map((resonator) => {
+                const name = resonator.name
+                const image = resonator.image
+
+                const is_selected = user_choices.includes(name)
+
                 return (
-                    <div className="search_item">
+                    <div 
+                        key={name}
+                        className={
+                            is_selected ?
+                            "search_item active" 
+                            :
+                            "search_item"
+                        }
+                        onClick={() => _handle_choice(name , _set_user_choices)}
+                    >
                         <img 
                             src={image}
                             alt="" 
@@ -31,7 +46,8 @@ function SearchItem(
 
 function SearchList(
     {
-        items
+        items ,
+        user_choices , _set_user_choices
     }
 )
 {
@@ -39,6 +55,8 @@ function SearchList(
         <div className="search_list">
             <SearchItem 
                 items={items}
+                user_choices={user_choices}
+                _set_user_choices={_set_user_choices}
             />
         </div>
     )
@@ -46,8 +64,7 @@ function SearchList(
 
 function Search_input(
     {
-        items , _set_items , 
-        clone
+        _set_items , clone
     }
 )
 {
@@ -55,6 +72,8 @@ function Search_input(
 
     function _search(value)
     {
+        _set_input(value)
+
         if (value == "")
         {
             _set_items(clone)
@@ -63,9 +82,7 @@ function Search_input(
             return
         }
 
-        _set_input(value)
-
-        _set_items(_search_filter(value , items))
+        _set_items(_search_filter(value , clone))
     }
 
     return (
@@ -83,25 +100,13 @@ function Search_input(
     )
 }
 
-function Search()
+function Search(
+    {
+        items , _set_items ,
+        user_choices , _set_user_choices
+    }
+)
 {
-    const images = import.meta.glob(
-        "../../assets/icons/resonators/*.webp" ,
-        {
-            eager : true ,
-            query : "?url" ,
-            import : "default"
-        }
-    )
-
-    const [items , _set_items] = useState(() => {
-        return Object.entries(images).map(([path , image]) => {
-            const name = _take_name(path)
-            
-            return [name , image]
-        })
-    })
-
     // const [clone , _set_clone] = useState(() => {
     //     return Object.entries(images).map(([path , image]) => {
     //         const name = _take_name(path)
@@ -115,13 +120,14 @@ function Search()
     return (
         <div className="search">
             <Search_input 
-                items={items}
                 _set_items={_set_items}
                 clone={clone}
             />
 
             <SearchList 
                 items={items}
+                user_choices={user_choices}
+                _set_user_choices={_set_user_choices}
             />
         </div>
     )

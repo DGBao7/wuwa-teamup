@@ -22,20 +22,44 @@ function _modify_name(name)
     return resonator_name
 }
 
+export function _handle_choice(
+    item_name ,
+    _set_user_choices
+)
+{
+    _set_user_choices(prev_choice => {
+        if (prev_choice.includes(item_name))
+        {
+            return prev_choice.filter(
+                choice => choice != item_name
+            )
+        }
+
+        return [...prev_choice , item_name]
+    })
+}
+
 export function _search_filter(input , items)
 {
-    const search = []
-
-    for (let i = 0; i < items.length; i ++)
-    {
-        if (items[i][0]
+    const search = items.filter((resonator) => {
+        if (resonator.name
                 .toLowerCase()
                 .includes(input.toLowerCase())
         )
-        {
-            search.push(items[i])
-        }
-    }
+
+        return resonator
+    })
+
+    // for (let i = 0; i < items.length; i ++)
+    // {
+    //     if (items[i][0]
+    //             .toLowerCase()
+    //             .includes(input.toLowerCase())
+    //     )
+    //     {
+    //         search.push(items[i])
+    //     }
+    // }
 
     return search
 }
