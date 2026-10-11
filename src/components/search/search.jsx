@@ -1,20 +1,15 @@
 import "./search.css"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
-import { _filter, _handle_choice, _reset_clone, _search_filter } from "../../utils/search"
+import { _handle_choice, _search_filter } from "../../utils/search"
 
 function SearchItem(
     {
-        items , clone , _set_clone ,
+        clone , 
         user_choices , _set_user_choices
     }
 )
 {
-    if (clone.length == 0)
-    {
-        _set_clone(items)
-    }
-
     return (
         <>
             {clone.map((resonator) => {
@@ -51,7 +46,7 @@ function SearchItem(
 
 function SearchList(
     {
-        items , clone , _set_clone ,
+        clone ,
         user_choices , _set_user_choices
     }
 )
@@ -59,9 +54,7 @@ function SearchList(
     return (
         <div className="search_list">
             <SearchItem 
-                items={items}
                 clone={clone}
-                _set_clone={_set_clone}
                 user_choices={user_choices}
                 _set_user_choices={_set_user_choices}
             />
@@ -71,26 +64,33 @@ function SearchList(
 
 function SearchInput(
     {
-        items ,
-        _set_clone
+        input , _set_input ,
+        searching , _set_searching
     }
 )
 {
-    const [input , _set_input] = useState("")
-
     function _search(value)
     {
         _set_input(value)
 
         if (value == "")
         {
-            _set_input("")
-            _set_clone([])
-
-            return
+            _set_searching(
+                {
+                    ...searching ,
+                    name : false
+                }
+            )
         }
-
-        _set_clone(_search_filter(value , items))
+        else
+        {
+            _set_searching(
+                {
+                    ...searching ,
+                    name : true
+                }
+            )
+        }
     }
 
     return (
@@ -110,29 +110,23 @@ function SearchInput(
 
 function FiveStar(
     {
-        items ,
-        clone , _set_clone ,
-        filter5 , _set_filter5
+        searching , _set_searching
     }
 )
 {
     function _click()
     {
-        _set_filter5(!filter5)
-
-        if (!filter5)
-        {
-            _filter(clone , _set_clone , 5)
-        }
-        else 
-        {
-            _reset_clone(_set_clone , items)
-        }
+        _set_searching(
+            {
+                ...searching ,
+                "5" : !searching["5"]
+            }
+        )
     }
 
     return (
         <div 
-            className={filter5 ? "search_button active" : "search_button"}
+            className={searching["5"] ? "search_button active" : "search_button"}
             onClick={_click}    
         >
             5 ✦
@@ -142,29 +136,23 @@ function FiveStar(
 
 function FourStar(
     {
-        items ,
-        clone ,_set_clone ,
-        filter4 , _set_filter4
+        searching , _set_searching
     }
 )
 {
     function _click()
     {
-        _set_filter4(!filter4)
-
-        if (!filter4)
-        {   
-            _filter(clone , _set_clone , 4)
-        }
-        else 
-        {
-            _reset_clone(_set_clone , items)
-        }
+        _set_searching(
+            {
+                ...searching ,
+                "4" : !searching["4"]
+            }
+        )
     }
 
     return (
         <div 
-            className={filter4 ? "search_button active" : "search_button"}
+            className={searching["4"] ? "search_button active" : "search_button"}
             onClick={_click}    
         >
             4 ✦
@@ -172,32 +160,57 @@ function FourStar(
     )
 }
 
+function _filter_promax(
+    items , 
+    clone , _set_clone ,
+    searching , input
+)
+{
+    let filter = items
+
+    const is_name = searching["name"]
+    const is_4 = searching["4"]
+    const is_5 = searching["5"]
+
+    if (is_name)
+    {
+        filter = _search_filter(input , items)
+    }
+
+    if (is_4 || is_5)
+    {
+        filter = filter.filter((resonator) => {
+            const tier = String(resonator.tier)
+
+            return (
+                (is_4 && tier == "4")
+                ||
+                (is_5 && tier == "5")
+            )
+        })
+    }   
+    
+    _set_clone(filter)
+}
+
 function Filter(
     {
-        items ,
-        clone , _set_clone
+        // items ,
+        // clone , _set_clone ,
+        searching , _set_searching
     }
 )
 {
-    const [filter4 , _set_filter4] = useState(false)
-    const [filter5 , _set_filter5] = useState(false)
-  
     return (
         <div className="search_filter">
             <FourStar 
-                items={items}
-                clone={clone}
-                _set_clone={_set_clone}
-                filter4={filter4}
-                _set_filter4={_set_filter4}
+                searching={searching}
+                _set_searching={_set_searching}
             />
 
             <FiveStar
-                items={items} 
-                clone={clone}
-                _set_clone={_set_clone}
-                filter5={filter5}
-                _set_filter5={_set_filter5}
+                searching={searching}
+                _set_searching={_set_searching}
             />
         </div>
     )
@@ -205,22 +218,26 @@ function Filter(
 
 function SearchBar(
     {
-        items , 
-        clone , _set_clone
+        input , _set_input ,
+        searching , _set_searching
     }
 )
 {
     return (
         <div className="search_bar">
             <SearchInput 
-                items={items}
-                _set_clone={_set_clone}
+                input={input}
+                _set_input={_set_input}
+                searching={searching}
+                _set_searching={_set_searching}
             />
 
             <Filter 
-                items={items}
-                clone={clone}
-                _set_clone={_set_clone}
+                // items={items}
+                // clone={clone}
+                // _set_clone={_set_clone}
+                searching={searching}
+                _set_searching={_set_searching}
             />
         </div>
     )
@@ -229,32 +246,39 @@ function SearchBar(
 function Search(
     {
         items ,
+        clone , _set_clone ,
         user_choices , _set_user_choices
     }
 )
 {
-    // const [clone , _set_clone] = useState(() => {
-    //     return Object.entries(images).map(([path , image]) => {
-    //         const name = _take_name(path)
-            
-    //         return [name , image]
-    //     })
-    // })
+    const [searching , _set_searching] = useState(
+        {
+            "name" : false ,
+            "4" : false ,
+            "5" : false
+        }
+    )
+    const [input , _set_input] = useState("")
 
-    const [clone , _set_clone] = useState([])
+    useEffect(() => {
+        _filter_promax(
+            items ,
+            clone , _set_clone ,
+            searching , input
+        )
+    } , [items , clone , _set_clone , searching , input])
 
     return (
         <div className="search">
             <SearchBar
-                items={items}
-                clone={clone}
-                _set_clone={_set_clone}
+                input={input}
+                _set_input={_set_input}
+                searching={searching}
+                _set_searching={_set_searching}
             />
 
             <SearchList 
-                items={items}
                 clone={clone}
-                _set_clone={_set_clone}
                 user_choices={user_choices}
                 _set_user_choices={_set_user_choices}
             />

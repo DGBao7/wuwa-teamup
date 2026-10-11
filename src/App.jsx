@@ -10,7 +10,8 @@ import { UseTeams } from "./hooks/teams.jsx"
 
 function Workspace(
   {
-    items , _set_items ,
+    items ,
+    clone , _set_clone ,
     user_choices , _set_user_choices ,
     teams
   }
@@ -20,7 +21,8 @@ function Workspace(
     <div className="workspace">
       <Search 
         items={items}
-        _set_items={_set_items}
+        clone={clone}
+        _set_clone={_set_clone}
         user_choices={user_choices}
         _set_user_choices={_set_user_choices}
       />
@@ -36,7 +38,8 @@ function Workspace(
 
 function Playground(
   {
-    items , _set_items ,
+    items ,
+    clone , _set_clone ,
     user_choice , _set_user_choices ,
     teams
   }
@@ -48,7 +51,8 @@ function Playground(
 
       <Workspace 
         items={items}
-        _set_items={_set_items}
+        clone={clone}
+        _set_clone={_set_clone}
         user_choices={user_choice}
         _set_user_choices={_set_user_choices}
         teams={teams}
@@ -60,6 +64,7 @@ function Playground(
 function App()
 {
   const [items , _set_items] = UseResonators()
+  const [clone , _set_clone] = UseResonators()
 
   const [user_choices , _set_user_choices] = UseUser()
 
@@ -69,7 +74,8 @@ function App()
     <div>
       <Playground 
         items={items}
-        _set_items={_set_items}
+        clone={clone}
+        _set_clone={_set_clone}
         user_choice={user_choices}
         _set_user_choices={_set_user_choices}
         teams={teams}

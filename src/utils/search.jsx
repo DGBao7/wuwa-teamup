@@ -50,17 +50,6 @@ export function _search_filter(input , items)
         return resonator
     })
 
-    // for (let i = 0; i < items.length; i ++)
-    // {
-    //     if (items[i][0]
-    //             .toLowerCase()
-    //             .includes(input.toLowerCase())
-    //     )
-    //     {
-    //         search.push(items[i])
-    //     }
-    // }
-
     if (search.length > 0)
     {
         return search
@@ -70,6 +59,8 @@ export function _search_filter(input , items)
         return []
     }
 }
+
+
 
 export function _take_name(path)
 {

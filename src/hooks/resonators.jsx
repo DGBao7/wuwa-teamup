@@ -79,6 +79,11 @@ function _create_items()
     })
 }
 
+export function _redo_changes(_set_visible_items , items)
+{
+    _set_visible_items(items)
+}
+
 export function UseResonators()
 {
     const [items , _set_items] = useState(_create_items)
