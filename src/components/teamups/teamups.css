@@ -25,3 +25,404 @@
     background-clip: text;
     color: transparent;
 }
+
+.team
+{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+
+    width: 100%;
+    max-width: 850px;
+    min-height: 220px;
+
+    padding: 24px 32px;
+    box-sizing: border-box;
+
+    background: linear-gradient(
+        145deg,
+        #151B1B,
+        #202B28
+    );
+
+    border: 1px solid rgba(52, 211, 153, 0.35);
+    border-radius: 18px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.team .role
+{
+    position: static;
+
+    color: #D1FAE5;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+
+    overflow-wrap: anywhere;
+    margin-top: 30px;
+}
+
+.team img
+{
+    position: static;
+
+    width: 123px;
+    height: 123px;
+
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.team .resonator
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    flex: 1;
+    min-width: 0;
+
+    text-align: center;
+}
+
+.team .resonator-name
+{
+    position: static;
+
+    color: #D1FAE5;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+
+    overflow-wrap: anywhere;
+}
+
+.team .name
+{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+
+    grid-column: 1 / -1;
+
+    margin: 0;
+
+    color: #D1FAE5;
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.unused-resonators
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+
+    width: 100%;
+    max-width: 850px;
+    height: 20%;
+    max-height: 1000px;
+
+    padding: 20px 24px;
+    box-sizing: border-box;
+
+    background: linear-gradient(
+        145deg,
+        #151B1B,
+        #202B28
+    );
+
+    border: 1px solid rgba(52, 211, 153, 0.35);
+    border-radius: 12px;
+}
+
+.unused-resonators .resonator-name
+{
+    flex: 0 0 auto;
+    width: fit-content;
+
+    padding: 10px 16px;
+
+    color: #D1FAE5;
+    background: rgba(52, 211, 153, 0.08);
+
+    border: 1px solid rgba(52, 211, 153, 0.25);
+    border-radius: 8px;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.unused-resonators .text
+{
+    position: static;
+    flex: 0 0 100%;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.team .tier
+{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    text-align: center;
+}
+
+.team .tier-a
+{
+    color: #BAF7FF;
+}
+
+.team .tier-s
+{
+    color: #67DDF2;
+}
+
+.team .tier-ss
+{
+    color: #FBBF24;
+}
+
+.team .tier-sss
+{
+    color: #F97316;
+}
+
+.potential
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    width: 100%;
+    max-width: 850px;
+
+    margin-top: 20px;
+    padding: 20px 24px;
+    box-sizing: border-box;
+
+    background: linear-gradient(
+        145deg,
+        #151B1B,
+        #202B28
+    );
+
+    border: 1px solid rgba(52, 211, 153, 0.35);
+    border-radius: 12px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.potential .text,
+.potentials-team .text
+{
+    margin: 0;
+
+    color: #67DDF2;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.potential-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.potential .resonator-name
+{
+    padding: 10px 16px;
+
+    color: #D1FAE5;
+    background: rgba(52, 211, 153, 0.08);
+
+    border: 1px solid rgba(52, 211, 153, 0.25);
+    border-radius: 8px;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+
+    overflow-wrap: anywhere;
+}
+
+.potentials-team
+{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+
+    width: 100%;
+    max-width: 850px;
+    min-height: 220px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+
+    background: linear-gradient(
+        145deg,
+        #151B1B,
+        #202B28
+    );
+
+    border: 1px solid rgba(52, 211, 153, 0.35);
+    border-radius: 18px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* .potentials-team .potential-team
+{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+
+    width: 100%;
+    min-height: 220px;
+
+    padding: 24px 32px;
+    box-sizing: border-box;
+
+    background: linear-gradient(
+        145deg,
+        #151B1B,
+        #202B28
+    );
+
+    border: 1px solid rgba(52, 211, 153, 0.35);
+    border-radius: 18px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+} */
+
+.potentials-team .name
+{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+
+    margin: 0;
+
+    color: #D1FAE5;
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.potentials-team .tier
+{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    text-align: center;
+}
+
+.potentials-team .tier-a
+{
+    color: #BAF7FF;
+}
+
+.potentials-team .tier-s
+{
+    color: #67DDF2;
+}
+
+.potentials-team .tier-ss
+{
+    color: #FBBF24;
+}
+
+.potentials-team .tier-sss
+{
+    color: #F97316;
+}
+
+.potentials-team .resonator
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    min-width: 0;
+    text-align: center;
+}
+
+.potentials-team .role
+{
+    color: #D1FAE5;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+
+    overflow-wrap: anywhere;
+    margin-top: 30px;
+}
+
+.potentials-team img
+{
+    width: 123px;
+    height: 123px;
+
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.potentials-team .resonator-name
+{
+    color: #D1FAE5;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+
+    overflow-wrap: anywhere;
+}
