@@ -50,19 +50,17 @@ export function _search_filter(input , items)
         return resonator
     })
 
-    // for (let i = 0; i < items.length; i ++)
-    // {
-    //     if (items[i][0]
-    //             .toLowerCase()
-    //             .includes(input.toLowerCase())
-    //     )
-    //     {
-    //         search.push(items[i])
-    //     }
-    // }
-
-    return search
+    if (search.length > 0)
+    {
+        return search
+    }
+    else 
+    {
+        return []
+    }
 }
+
+
 
 export function _take_name(path)
 {
@@ -74,4 +72,16 @@ export function _take_name(path)
     const name = _modify_name(file_name)
 
     return name
+}
+
+export function _filter(clone , _set_clone , star)
+{
+    _set_clone(clone.filter((resonator) => {
+        return resonator.tier == String(star)
+    }))
+}
+
+export function _reset_clone(_set_clone , items)
+{
+    _set_clone(items)
 }

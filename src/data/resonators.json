@@ -3,360 +3,420 @@
         "id": "suoming",
         "name": "Suoming",
         "weapon-class": "sword",
-        "role": "Sub-DPS, Support, Buffer"
+        "role": "Sub-DPS, Support, Buffer",
+        "tier": "5"
     },
     {
         "id": "jingran",
         "name": "Jingran",
         "weapon-class": "broadblade",
-        "role": "DPS"
+        "role": "DPS",
+        "tier": "5"
     },
     {
         "id": "hsin",
         "name": "Hsin",
         "weapon-class": "rectifier",
-        "role": "Main DPS, Sub-DPS"
+        "role": "Main DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "qingxiao",
         "name": "Qingxiao",
         "weapon-class": "sword",
-        "role": "DPS"
+        "role": "DPS",
+        "tier": "5"
     },
     {
         "id": "suisui",
         "name": "Suisui",
         "weapon-class": "rectifier",
-        "role": "Support, Healer, Buffer"
+        "role": "Support, Healer, Buffer",
+        "tier": "5"
     },
     {
         "id": "yangyang-xuanling",
         "name": "Yangyang: Xuanling",
         "weapon-class": "sword",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "rover-electro",
         "name": "Rover Electro",
         "weapon-class": "sword",
-        "role": "DPS, Sub-DPS, Electro Flare Support"
+        "role": "DPS, Sub-DPS, Electro Flare Support",
+        "tier": "5"
     },
     {
         "id": "hiyuki",
         "name": "Hiyuki",
         "weapon-class": "sword",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "lucy",
         "name": "Lucy",
         "weapon-class": "pistols",
-        "role": "DPS, Support"
+        "role": "DPS, Support",
+        "tier": "5"
     },
     {
         "id": "lucilla",
         "name": "Lucilla",
         "weapon-class": "rectifier",
-        "role": "Support, Healer"
+        "role": "Support, Healer",
+        "tier": "5"
     },
     {
         "id": "rebecca",
         "name": "Rebecca",
         "weapon-class": "pistols",
-        "role": "DPS, Sub-DPS"
+        "role": "DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "denia",
         "name": "Denia",
         "weapon-class": "rectifier",
-        "role": "DPS, Support"
+        "role": "DPS, Support",
+        "tier": "5"
     },
     {
         "id": "sigrika",
         "name": "Sigrika",
         "weapon-class": "gauntlets",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "aemeath",
         "name": "Aemeath",
         "weapon-class": "sword",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "luuk-herssen",
         "name": "Luuk Herssen",
         "weapon-class": "gauntlets",
-        "role": "Main DPS, Sub-DPS"
+        "role": "Main DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "mornye",
         "name": "Mornye",
         "weapon-class": "broadblade",
-        "role": "Support, Healer, Buffer"
+        "role": "Support, Healer, Buffer",
+        "tier": "5"
     },
     {
         "id": "lynae",
         "name": "Lynae",
         "weapon-class": "pistols",
-        "role": "DPS, Sub-DPS, Support"
+        "role": "DPS, Sub-DPS, Support",
+        "tier": "5"
     },
     {
         "id": "qiuyuan",
         "name": "Qiuyuan",
         "weapon-class": "sword",
-        "role": "Sub-DPS, Support"
+        "role": "Sub-DPS, Support",
+        "tier": "5"
     },
     {
         "id": "chisa",
         "name": "Chisa",
         "weapon-class": "broadblade",
-        "role": "DPS, Sub-DPS"
+        "role": "DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "galbrena",
         "name": "Galbrena",
         "weapon-class": "pistols",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "iuno",
         "name": "Iuno",
         "weapon-class": "gauntlets",
-        "role": "DPS, Sub-DPS, Support"
+        "role": "DPS, Sub-DPS, Support",
+        "tier": "5"
     },
     {
         "id": "augusta",
         "name": "Augusta",
         "weapon-class": "broadblade",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "cartethyia",
         "name": "Cartethyia",
         "weapon-class": "sword",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "phrolova",
         "name": "Phrolova",
         "weapon-class": "rectifier",
-        "role": "Main DPS, Sub-DPS"
+        "role": "Main DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "lupa",
         "name": "Lupa",
         "weapon-class": "broadblade",
-        "role": "Main DPS, Fusion Support"
+        "role": "Main DPS, Fusion Support",
+        "tier": "5"
     },
     {
         "id": "zani",
         "name": "Zani",
         "weapon-class": "gauntlets",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "ciaccona",
         "name": "Ciaccona",
         "weapon-class": "pistols",
-        "role": "Sub-DPS, Support"
+        "role": "Sub-DPS, Support",
+        "tier": "5"
     },
     {
         "id": "cantarella",
         "name": "Cantarella",
         "weapon-class": "rectifier",
-        "role": "Sub-DPS, Support, Healer"
+        "role": "Sub-DPS, Support, Healer",
+        "tier": "5"
     },
     {
         "id": "rover-aero",
         "name": "Rover Aero",
         "weapon-class": "sword",
-        "role": "Support, Healer"
+        "role": "Support, Healer",
+        "tier": "5"
     },
     {
         "id": "phoebe",
         "name": "Phoebe",
         "weapon-class": "rectifier",
-        "role": "DPS, Support"
+        "role": "DPS, Support",
+        "tier": "5"
     },
     {
         "id": "brant",
         "name": "Brant",
         "weapon-class": "sword",
-        "role": "DPS, Support, Healer"
+        "role": "DPS, Support, Healer",
+        "tier": "5"
     },
     {
         "id": "carlotta",
         "name": "Carlotta",
         "weapon-class": "pistols",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "roccia",
         "name": "Roccia",
         "weapon-class": "gauntlets",
-        "role": "Sub-DPS, Support, Buffer"
+        "role": "Sub-DPS, Support, Buffer",
+        "tier": "5"
     },
     {
         "id": "shorekeeper",
         "name": "Shorekeeper",
         "weapon-class": "rectifier",
-        "role": "Support, Healer, Buffer"
+        "role": "Support, Healer, Buffer",
+        "tier": "5"
     },
     {
         "id": "zhezhi",
         "name": "Zhezhi",
         "weapon-class": "rectifier",
-        "role": "Sub-DPS, Support, Buffer"
+        "role": "Sub-DPS, Support, Buffer",
+        "tier": "5"
     },
     {
         "id": "changli",
         "name": "Changli",
         "weapon-class": "sword",
-        "role": "DPS, Sub-DPS"
+        "role": "DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "xiangli-yao",
         "name": "Xiangli Yao",
         "weapon-class": "gauntlets",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "jinhsi",
         "name": "Jinhsi",
         "weapon-class": "broadblade",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "jianxin",
         "name": "Jianxin",
         "weapon-class": "gauntlets",
-        "role": "DPS, Support, Shielder, Healer"
+        "role": "DPS, Support, Shielder, Healer",
+        "tier": "5"
     },
     {
         "id": "rover-havoc",
         "name": "Rover Havoc",
         "weapon-class": "sword",
-        "role": "Main DPS, Sub-DPS"
+        "role": "Main DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "lingyang",
         "name": "Lingyang",
         "weapon-class": "gauntlets",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "yinlin",
         "name": "Yinlin",
         "weapon-class": "rectifier",
-        "role": "Sub-DPS, Support"
+        "role": "Sub-DPS, Support",
+        "tier": "5"
     },
     {
         "id": "calcharo",
         "name": "Calcharo",
         "weapon-class": "broadblade",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "camellya",
         "name": "Camellya",
         "weapon-class": "sword",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "jiyan",
         "name": "Jiyan",
         "weapon-class": "broadblade",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "encore",
         "name": "Encore",
         "weapon-class": "rectifier",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "5"
     },
     {
         "id": "rover-spectro",
         "name": "Rover Spectro",
         "weapon-class": "sword",
-        "role": "DPS, Sub-DPS"
+        "role": "DPS, Sub-DPS",
+        "tier": "5"
     },
     {
         "id": "verina",
         "name": "Verina",
         "weapon-class": "rectifier",
-        "role": "Support, Healer, Buffer"
+        "role": "Support, Healer, Buffer",
+        "tier": "5"
     },
     {
         "id": "buling",
         "name": "Buling",
         "weapon-class": "rectifier",
-        "role": "Support, Healer, Electro Flare Support"
+        "role": "Support, Healer, Electro Flare Support",
+        "tier": "4"
     },
     {
         "id": "youhu",
         "name": "Youhu",
         "weapon-class": "gauntlets",
-        "role": "Support, Healer"
+        "role": "Support, Healer",
+        "tier": "4"
     },
     {
         "id": "lumi",
         "name": "Lumi",
         "weapon-class": "broadblade",
-        "role": "DPS, Sub-DPS"
+        "role": "DPS, Sub-DPS",
+        "tier": "4"
     },
     {
         "id": "yuanwu",
         "name": "Yuanwu",
         "weapon-class": "gauntlets",
-        "role": "Sub-DPS, Support"
+        "role": "Sub-DPS, Support",
+        "tier": "4"
     },
     {
         "id": "mortefi",
         "name": "Mortefi",
         "weapon-class": "pistols",
-        "role": "Sub-DPS, Heavy Attack Support"
+        "role": "Sub-DPS, Heavy Attack Support",
+        "tier": "4"
     },
     {
         "id": "aalto",
         "name": "Aalto",
         "weapon-class": "pistols",
-        "role": "Sub-DPS, Support"
+        "role": "Sub-DPS, Support",
+        "tier": "4"
     },
     {
         "id": "danjin",
         "name": "Danjin",
         "weapon-class": "sword",
-        "role": "Main DPS, Sub-DPS"
+        "role": "Main DPS, Sub-DPS",
+        "tier": "4"
     },
     {
         "id": "baizhi",
         "name": "Baizhi",
         "weapon-class": "rectifier",
-        "role": "Support, Healer, Buffer"
+        "role": "Support, Healer, Buffer",
+        "tier": "4"
     },
     {
         "id": "taoqi",
         "name": "Taoqi",
         "weapon-class": "broadblade",
-        "role": "Support, Shielder, Resonance Skill Buffer"
+        "role": "Support, Shielder, Resonance Skill Buffer",
+        "tier": "4"
     },
     {
         "id": "sanhua",
         "name": "Sanhua",
         "weapon-class": "sword",
-        "role": "Sub-DPS, Basic Attack Support"
+        "role": "Sub-DPS, Basic Attack Support",
+        "tier": "4"
     },
     {
         "id": "chixia",
         "name": "Chixia",
         "weapon-class": "pistols",
-        "role": "Main DPS"
+        "role": "Main DPS",
+        "tier": "4"
     },
     {
         "id": "yangyang",
         "name": "Yangyang",
         "weapon-class": "sword",
-        "role": "Sub-DPS, Support, Energy Support"
+        "role": "Sub-DPS, Support, Energy Support",
+        "tier": "4"
     }
 ]

@@ -1,7 +1,9 @@
 import { useState } from "react"
 
 import resonators from "../data/resonators.json"
+
 import { _take_name } from "../utils/search"
+import { _normalize } from "../utils/resonators"
 
 function _create_items()
 {
@@ -59,9 +61,9 @@ function _create_items()
             return _handle_rover(image)
         }
 
-        const item = resonators.find(
-            (resonator) => resonator.name.toLowerCase() == name.toLowerCase()
-        )
+        const item = resonators.find((resonator) => {
+            return _normalize(resonator.name) == _normalize(name)
+        })
         
         if (!item)
         {
@@ -75,6 +77,11 @@ function _create_items()
             }
         ]
     })
+}
+
+export function _redo_changes(_set_visible_items , items)
+{
+    _set_visible_items(items)
 }
 
 export function UseResonators()

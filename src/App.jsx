@@ -1,17 +1,19 @@
-// import { useState } from "react"
 import "./styles/theme.css"
 
-import Search from "./components/search/search,"
-import Teamups from "./components/teamups/teamups"
-import Status from "./components/status/status"
+import Search from "./components/search/search.jsx"
+import Teamups from "./components/teamups/teamups.jsx"
+import Status from "./components/status/status.jsx"
 
 import { UseResonators } from "./hooks/resonators"
 import { UseUser } from "./hooks/user"
+import { UseTeams } from "./hooks/teams.jsx"
 
 function Workspace(
   {
-    items , _set_items ,
-    user_choices , _set_user_choices
+    items ,
+    clone , _set_clone ,
+    user_choices , _set_user_choices ,
+    teams
   }
 )
 {
@@ -19,20 +21,27 @@ function Workspace(
     <div className="workspace">
       <Search 
         items={items}
-        _set_items={_set_items}
+        clone={clone}
+        _set_clone={_set_clone}
         user_choices={user_choices}
         _set_user_choices={_set_user_choices}
       />
 
-      <Teamups />
+      <Teamups 
+        user_choices={user_choices}
+        teams={teams}
+        items={items}
+      />
     </div>
   )
 }
 
-function Playrgound(
+function Playground(
   {
-    items , _set_items ,
-    user_choice , _set_user_choices
+    items ,
+    clone , _set_clone ,
+    user_choice , _set_user_choices ,
+    teams
   }
 )
 {
@@ -42,9 +51,11 @@ function Playrgound(
 
       <Workspace 
         items={items}
-        _set_items={_set_items}
+        clone={clone}
+        _set_clone={_set_clone}
         user_choices={user_choice}
         _set_user_choices={_set_user_choices}
+        teams={teams}
       />
     </div>
   )
@@ -53,16 +64,21 @@ function Playrgound(
 function App()
 {
   const [items , _set_items] = UseResonators()
+  const [clone , _set_clone] = UseResonators()
 
   const [user_choices , _set_user_choices] = UseUser()
 
+  const [teams] = UseTeams()
+
   return (
     <div>
-      <Playrgound 
+      <Playground 
         items={items}
-        _set_items={_set_items}
+        clone={clone}
+        _set_clone={_set_clone}
         user_choice={user_choices}
         _set_user_choices={_set_user_choices}
+        teams={teams}
       />
     </div>
   )

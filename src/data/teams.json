@@ -1,0 +1,1262 @@
+[
+    {
+        "team-name": "Xuanling Havoc Bane",
+        "resonators": {
+            "main-dps": "Yangyang: Xuanling",
+            "sub-dps": "Chisa",
+            "healer": "Suisui"
+        },
+        "power": 100,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Hiyuki Glacio Liberation",
+        "resonators": {
+            "main-dps": "Hiyuki",
+            "sub-dps": "Lucilla",
+            "healer": "Suisui"
+        },
+        "power": 99,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Qingxiao Tune Strain",
+        "resonators": {
+            "main-dps": "Qingxiao",
+            "sub-dps": "Denia",
+            "healer": "Mornye"
+        },
+        "power": 98,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Jingran Heavy Attack",
+        "resonators": {
+            "main-dps": "Jingran",
+            "sub-dps": "Iuno",
+            "healer": "Shorekeeper"
+        },
+        "power": 97,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Hiyuki Glacio Liberation I",
+        "resonators": {
+            "main-dps": "Hiyuki",
+            "sub-dps": "Lucilla",
+            "support": "Chisa"
+        },
+        "power": 96,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Hiyuki Glacio Liberation II",
+        "resonators": {
+            "main-dps": "Hiyuki",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 95,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Qingxiao Tune Strain I",
+        "resonators": {
+            "main-dps": "Qingxiao",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 94,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Xuanling Havoc Bane I",
+        "resonators": {
+            "main-dps": "Yangyang: Xuanling",
+            "sub-dps": "Rebecca",
+            "support": "Chisa"
+        },
+        "power": 93,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Xuanling Havoc Bane II",
+        "resonators": {
+            "main-dps": "Yangyang: Xuanling",
+            "sub-dps": "Rebecca",
+            "healer": "Suisui"
+        },
+        "power": 92,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Hiyuki Glacio Liberation III",
+        "resonators": {
+            "main-dps": "Hiyuki",
+            "sub-dps": "Lynae",
+            "support": "Chisa"
+        },
+        "power": 91,
+        "tier": "SS"
+    },
+    {
+        "team-name": "Aemeath Fusion Burst",
+        "resonators": {
+            "main-dps": "Aemeath",
+            "sub-dps": "Denia",
+            "support": "Chisa"
+        },
+        "power": 90,
+        "tier": "S"
+    },
+    {
+        "team-name": "Aemeath Tune Rupture",
+        "resonators": {
+            "main-dps": "Aemeath",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 90,
+        "tier": "S"
+    },
+    {
+        "team-name": "Hsin Resonance Skill",
+        "resonators": {
+            "main-dps": "Hsin",
+            "sub-dps": "Rover (Electro)",
+            "healer": "Suisui"
+        },
+        "power": 89,
+        "tier": "S"
+    },
+    {
+        "team-name": "Sigrika Aero Hypercarry",
+        "resonators": {
+            "main-dps": "Sigrika",
+            "sub-dps": "Qiuyuan",
+            "healer": "Shorekeeper"
+        },
+        "power": 88,
+        "tier": "S"
+    },
+    {
+        "team-name": "Luuk Herssen Spectro Hypercarry",
+        "resonators": {
+            "main-dps": "Luuk Herssen",
+            "sub-dps": "Denia",
+            "healer": "Mornye"
+        },
+        "power": 88,
+        "tier": "S"
+    },
+    {
+        "team-name": "Sigrika Aero Hypercarry I",
+        "resonators": {
+            "main-dps": "Sigrika",
+            "sub-dps": "Qiuyuan",
+            "support": "Ciaccona"
+        },
+        "power": 88,
+        "tier": "S"
+    },
+    {
+        "team-name": "Jingran Mono Fusion",
+        "resonators": {
+            "main-dps": "Jingran",
+            "sub-dps": "Lupa",
+            "healer": "Mornye"
+        },
+        "power": 87,
+        "tier": "S"
+    },
+    {
+        "team-name": "Qingxiao Tune Strain II",
+        "resonators": {
+            "main-dps": "Qingxiao",
+            "sub-dps": "Denia",
+            "support": "Ciaccona"
+        },
+        "power": 86,
+        "tier": "S"
+    },
+    {
+        "team-name": "Qingxiao Tune Strain III",
+        "resonators": {
+            "main-dps": "Qingxiao",
+            "sub-dps": "Lynae",
+            "healer": "Shorekeeper"
+        },
+        "power": 86,
+        "tier": "S"
+    },
+    {
+        "team-name": "Qingxiao Tune Strain IV",
+        "resonators": {
+            "main-dps": "Qingxiao",
+            "sub-dps": "Sanhua",
+            "healer": "Mornye"
+        },
+        "power": 86,
+        "tier": "S"
+    },
+    {
+        "team-name": "Xuanling Havoc Bane III",
+        "resonators": {
+            "main-dps": "Yangyang: Xuanling",
+            "sub-dps": "Mortefi",
+            "support": "Chisa"
+        },
+        "power": 85,
+        "tier": "S"
+    },
+    {
+        "team-name": "Xuanling Havoc Bane IV",
+        "resonators": {
+            "main-dps": "Yangyang: Xuanling",
+            "sub-dps": "Rover (Electro)",
+            "support": "Chisa"
+        },
+        "power": 84,
+        "tier": "S"
+    },
+    {
+        "team-name": "Hiyuki Glacio Liberation IV",
+        "resonators": {
+            "main-dps": "Hiyuki",
+            "sub-dps": "Chisa",
+            "healer": "Shorekeeper"
+        },
+        "power": 84,
+        "tier": "S"
+    },
+    {
+        "team-name": "Qingxiao Aero Hypercarry",
+        "resonators": {
+            "main-dps": "Qingxiao",
+            "sub-dps": "Ciaccona",
+            "healer": "Shorekeeper"
+        },
+        "power": 84,
+        "tier": "S"
+    },
+    {
+        "team-name": "Xuanling Havoc Bane V",
+        "resonators": {
+            "main-dps": "Yangyang: Xuanling",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 83,
+        "tier": "S"
+    },
+    {
+        "team-name": "Xuanling Havoc Bane VI",
+        "resonators": {
+            "main-dps": "Yangyang: Xuanling",
+            "sub-dps": "Phrolova",
+            "healer": "Shorekeeper"
+        },
+        "power": 82,
+        "tier": "S"
+    },
+    {
+        "team-name": "Hsin Resonance Skill I",
+        "resonators": {
+            "main-dps": "Hsin",
+            "sub-dps": "Rover (Electro)",
+            "healer": "Buling"
+        },
+        "power": 82,
+        "tier": "S"
+    },
+    {
+        "team-name": "Hsin Resonance Skill II",
+        "resonators": {
+            "main-dps": "Hsin",
+            "sub-dps": "Rover (Electro)",
+            "support": "Chisa"
+        },
+        "power": 82,
+        "tier": "S"
+    },
+    {
+        "team-name": "Luuk Herssen Tune Strain",
+        "resonators": {
+            "main-dps": "Luuk Herssen",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 81,
+        "tier": "S"
+    },
+    {
+        "team-name": "Sigrika Aero Hypercarry II",
+        "resonators": {
+            "main-dps": "Sigrika",
+            "sub-dps": "Lucilla",
+            "healer": "Shorekeeper"
+        },
+        "power": 80,
+        "tier": "S"
+    },
+    {
+        "team-name": "Cartethyia Aero Erosion",
+        "resonators": {
+            "main-dps": "Cartethyia",
+            "sub-dps": "Ciaccona",
+            "support": "Chisa"
+        },
+        "power": 80,
+        "tier": "S"
+    },
+    {
+        "team-name": "Aemeath Mono Fusion",
+        "resonators": {
+            "main-dps": "Aemeath",
+            "sub-dps": "Lupa",
+            "healer": "Mornye"
+        },
+        "power": 79,
+        "tier": "A"
+    },
+    {
+        "team-name": "Iuno Heavy Attack",
+        "resonators": {
+            "main-dps": "Iuno",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 79,
+        "tier": "A"
+    },
+    {
+        "team-name": "Phrolova Echo Skill",
+        "resonators": {
+            "main-dps": "Phrolova",
+            "sub-dps": "Cantarella",
+            "healer": "Shorekeeper"
+        },
+        "power": 78,
+        "tier": "A"
+    },
+    {
+        "team-name": "Hsin Resonance Skill III",
+        "resonators": {
+            "main-dps": "Hsin",
+            "sub-dps": "Chisa",
+            "healer": "Suisui"
+        },
+        "power": 78,
+        "tier": "A"
+    },
+    {
+        "team-name": "Augusta Heavy Attack",
+        "resonators": {
+            "main-dps": "Augusta",
+            "sub-dps": "Iuno",
+            "healer": "Shorekeeper"
+        },
+        "power": 78,
+        "tier": "A"
+    },
+    {
+        "team-name": "Galbrena Mono Fusion",
+        "resonators": {
+            "main-dps": "Galbrena",
+            "sub-dps": "Lupa",
+            "healer": "Mornye"
+        },
+        "power": 77,
+        "tier": "A"
+    },
+    {
+        "team-name": "Sigrika Echo Skill",
+        "resonators": {
+            "main-dps": "Sigrika",
+            "sub-dps": "Phrolova",
+            "support": "Qiuyuan"
+        },
+        "power": 77,
+        "tier": "A"
+    },
+    {
+        "team-name": "Cartethyia Aero Erosion I",
+        "resonators": {
+            "main-dps": "Cartethyia",
+            "sub-dps": "Ciaccona",
+            "healer": "Rover (Aero)"
+        },
+        "power": 76,
+        "tier": "A"
+    },
+    {
+        "team-name": "Lucy Fusion Hypercarry",
+        "resonators": {
+            "main-dps": "Lucy",
+            "sub-dps": "Rebecca",
+            "healer": "Mornye"
+        },
+        "power": 76,
+        "tier": "A"
+    },
+    {
+        "team-name": "Phrolova Echo Skill I",
+        "resonators": {
+            "main-dps": "Phrolova",
+            "sub-dps": "Roccia",
+            "support": "Cantarella"
+        },
+        "power": 76,
+        "tier": "A"
+    },
+    {
+        "team-name": "Phrolova Echo Skill II",
+        "resonators": {
+            "main-dps": "Phrolova",
+            "sub-dps": "Cantarella",
+            "support": "Qiuyuan"
+        },
+        "power": 75,
+        "tier": "A"
+    },
+    {
+        "team-name": "Hsin Coordinated Attack",
+        "resonators": {
+            "main-dps": "Hsin",
+            "sub-dps": "Jinhsi",
+            "healer": "Shorekeeper"
+        },
+        "power": 75,
+        "tier": "A"
+    },
+    {
+        "team-name": "Augusta Heavy Attack I",
+        "resonators": {
+            "main-dps": "Augusta",
+            "sub-dps": "Mortefi",
+            "healer": "Shorekeeper"
+        },
+        "power": 74,
+        "tier": "A"
+    },
+    {
+        "team-name": "Galbrena Fusion Hypercarry",
+        "resonators": {
+            "main-dps": "Galbrena",
+            "sub-dps": "Qiuyuan",
+            "healer": "Shorekeeper"
+        },
+        "power": 74,
+        "tier": "A"
+    },
+    {
+        "team-name": "Galbrena Fusion Hypercarry I",
+        "resonators": {
+            "main-dps": "Galbrena",
+            "sub-dps": "Lupa",
+            "healer": "Shorekeeper"
+        },
+        "power": 74,
+        "tier": "A"
+    },
+    {
+        "team-name": "Cartethyia Aero Erosion II",
+        "resonators": {
+            "main-dps": "Cartethyia",
+            "sub-dps": "Sanhua",
+            "healer": "Shorekeeper"
+        },
+        "power": 73,
+        "tier": "A"
+    },
+    {
+        "team-name": "Galbrena Fusion Hypercarry II",
+        "resonators": {
+            "main-dps": "Galbrena",
+            "sub-dps": "Lupa",
+            "support": "Brant"
+        },
+        "power": 73,
+        "tier": "A"
+    },
+    {
+        "team-name": "Iuno Heavy Attack I",
+        "resonators": {
+            "main-dps": "Iuno",
+            "sub-dps": "Ciaccona",
+            "healer": "Rover (Aero)"
+        },
+        "power": 73,
+        "tier": "A"
+    },
+    {
+        "team-name": "Iuno Heavy Attack II",
+        "resonators": {
+            "main-dps": "Iuno",
+            "sub-dps": "Yinlin",
+            "healer": "Shorekeeper"
+        },
+        "power": 72,
+        "tier": "A"
+    },
+    {
+        "team-name": "Iuno Heavy Attack III",
+        "resonators": {
+            "main-dps": "Iuno",
+            "sub-dps": "Jianxin",
+            "healer": "Shorekeeper"
+        },
+        "power": 72,
+        "tier": "A"
+    },
+    {
+        "team-name": "Phrolova Echo Skill III",
+        "resonators": {
+            "main-dps": "Phrolova",
+            "sub-dps": "Cantarella",
+            "healer": "Buling"
+        },
+        "power": 72,
+        "tier": "A"
+    },
+    {
+        "team-name": "Phrolova Echo Skill IV",
+        "resonators": {
+            "main-dps": "Phrolova",
+            "sub-dps": "Danjin",
+            "healer": "Buling"
+        },
+        "power": 71,
+        "tier": "A"
+    },
+    {
+        "team-name": "Phrolova Echo Skill V",
+        "resonators": {
+            "main-dps": "Phrolova",
+            "sub-dps": "Qiuyuan",
+            "healer": "Shorekeeper"
+        },
+        "power": 71,
+        "tier": "A"
+    },
+    {
+        "team-name": "Phrolova Echo Skill VI",
+        "resonators": {
+            "main-dps": "Phrolova",
+            "sub-dps": "Danjin",
+            "support": "Cantarella"
+        },
+        "power": 70,
+        "tier": "A"
+    },
+    {
+        "team-name": "Augusta Heavy Attack II",
+        "resonators": {
+            "main-dps": "Augusta",
+            "sub-dps": "Rebecca",
+            "healer": "Shorekeeper"
+        },
+        "power": 70,
+        "tier": "A"
+    },
+    {
+        "team-name": "Zani Spectro Frazzle",
+        "resonators": {
+            "main-dps": "Zani",
+            "sub-dps": "Phoebe",
+            "support": "Rover (Spectro)"
+        },
+        "power": 69,
+        "tier": "B"
+    },
+    {
+        "team-name": "Carlotta Glacio Resonance Skill",
+        "resonators": {
+            "main-dps": "Carlotta",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 69,
+        "tier": "B"
+    },
+    {
+        "team-name": "Carlotta Glacio Resonance Skill I",
+        "resonators": {
+            "main-dps": "Carlotta",
+            "sub-dps": "Zhezhi",
+            "healer": "Shorekeeper"
+        },
+        "power": 68,
+        "tier": "B"
+    },
+    {
+        "team-name": "Lucy Fusion Hypercarry I",
+        "resonators": {
+            "main-dps": "Lucy",
+            "sub-dps": "Iuno",
+            "healer": "Shorekeeper"
+        },
+        "power": 68,
+        "tier": "B"
+    },
+    {
+        "team-name": "Changli Mono Fusion",
+        "resonators": {
+            "main-dps": "Changli",
+            "sub-dps": "Lupa",
+            "support": "Brant"
+        },
+        "power": 68,
+        "tier": "B"
+    },
+    {
+        "team-name": "Brant Mono Fusion",
+        "resonators": {
+            "main-dps": "Brant",
+            "sub-dps": "Lupa",
+            "healer": "Mornye"
+        },
+        "power": 67,
+        "tier": "B"
+    },
+    {
+        "team-name": "Zani Spectro Frazzle I",
+        "resonators": {
+            "main-dps": "Zani",
+            "sub-dps": "Phoebe",
+            "healer": "Shorekeeper"
+        },
+        "power": 67,
+        "tier": "B"
+    },
+    {
+        "team-name": "Phoebe Spectro Frazzle",
+        "resonators": {
+            "main-dps": "Phoebe",
+            "sub-dps": "Rover (Spectro)",
+            "support": "Chisa"
+        },
+        "power": 67,
+        "tier": "B"
+    },
+    {
+        "team-name": "Brant Fusion Hypercarry",
+        "resonators": {
+            "main-dps": "Brant",
+            "sub-dps": "Lupa",
+            "healer": "Shorekeeper"
+        },
+        "power": 66,
+        "tier": "B"
+    },
+    {
+        "team-name": "Zani Spectro Frazzle II",
+        "resonators": {
+            "main-dps": "Zani",
+            "sub-dps": "Rover (Spectro)",
+            "healer": "Baizhi"
+        },
+        "power": 66,
+        "tier": "B"
+    },
+    {
+        "team-name": "Jiyan Aero Heavy Attack",
+        "resonators": {
+            "main-dps": "Jiyan",
+            "sub-dps": "Iuno",
+            "support": "Ciaccona"
+        },
+        "power": 66,
+        "tier": "B"
+    },
+    {
+        "team-name": "Sanhua Glacio Basic Attack",
+        "resonators": {
+            "main-dps": "Sanhua",
+            "sub-dps": "Cantarella",
+            "healer": "Shorekeeper"
+        },
+        "power": 65,
+        "tier": "B"
+    },
+    {
+        "team-name": "Carlotta Glacio Resonance Skill II",
+        "resonators": {
+            "main-dps": "Carlotta",
+            "sub-dps": "Lumi",
+            "healer": "Shorekeeper"
+        },
+        "power": 65,
+        "tier": "B"
+    },
+    {
+        "team-name": "Carlotta Glacio Resonance Skill III",
+        "resonators": {
+            "main-dps": "Carlotta",
+            "sub-dps": "Taoqi",
+            "healer": "Shorekeeper"
+        },
+        "power": 65,
+        "tier": "B"
+    },
+    {
+        "team-name": "Carlotta Glacio Resonance Skill IV",
+        "resonators": {
+            "main-dps": "Carlotta",
+            "sub-dps": "Zhezhi",
+            "healer": "Baizhi"
+        },
+        "power": 64,
+        "tier": "B"
+    },
+    {
+        "team-name": "Carlotta Glacio Resonance Skill V",
+        "resonators": {
+            "main-dps": "Carlotta",
+            "sub-dps": "Zhezhi",
+            "healer": "Buling"
+        },
+        "power": 64,
+        "tier": "B"
+    },
+    {
+        "team-name": "Phoebe Spectro Frazzle I",
+        "resonators": {
+            "main-dps": "Phoebe",
+            "sub-dps": "Rover (Spectro)",
+            "healer": "Shorekeeper"
+        },
+        "power": 59,
+        "tier": "C"
+    },
+    {
+        "team-name": "Brant Fusion Hypercarry I",
+        "resonators": {
+            "main-dps": "Brant",
+            "sub-dps": "Sanhua",
+            "healer": "Verina"
+        },
+        "power": 58,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Zhezhi",
+            "healer": "Verina"
+        },
+        "power": 58,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jiyan Aero Heavy Attack I",
+        "resonators": {
+            "main-dps": "Jiyan",
+            "sub-dps": "Mortefi",
+            "healer": "Shorekeeper"
+        },
+        "power": 57,
+        "tier": "C"
+    },
+    {
+        "team-name": "Changli Fusion Quickswap",
+        "resonators": {
+            "main-dps": "Changli",
+            "sub-dps": "Brant",
+            "healer": "Shorekeeper"
+        },
+        "power": 57,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jiyan Aero Heavy Attack II",
+        "resonators": {
+            "main-dps": "Jiyan",
+            "sub-dps": "Aalto",
+            "healer": "Shorekeeper"
+        },
+        "power": 56,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jiyan Aero Heavy Attack III",
+        "resonators": {
+            "main-dps": "Jiyan",
+            "sub-dps": "Mortefi",
+            "healer": "Rover (Aero)"
+        },
+        "power": 56,
+        "tier": "C"
+    },
+    {
+        "team-name": "Changli Fusion Quickswap I",
+        "resonators": {
+            "main-dps": "Changli",
+            "sub-dps": "Encore",
+            "support": "Lupa"
+        },
+        "power": 55,
+        "tier": "C"
+    },
+    {
+        "team-name": "Changli Fusion Quickswap II",
+        "resonators": {
+            "main-dps": "Changli",
+            "sub-dps": "Lumi",
+            "healer": "Shorekeeper"
+        },
+        "power": 55,
+        "tier": "C"
+    },
+    {
+        "team-name": "Changli Fusion Quickswap III",
+        "resonators": {
+            "main-dps": "Changli",
+            "sub-dps": "Yangyang",
+            "healer": "Shorekeeper"
+        },
+        "power": 54,
+        "tier": "C"
+    },
+    {
+        "team-name": "Changli Fusion Quickswap IV",
+        "resonators": {
+            "main-dps": "Changli",
+            "sub-dps": "Chixia",
+            "healer": "Baizhi"
+        },
+        "power": 54,
+        "tier": "C"
+    },
+    {
+        "team-name": "Changli Fusion Quickswap V",
+        "resonators": {
+            "main-dps": "Changli",
+            "sub-dps": "Lupa",
+            "healer": "Mornye"
+        },
+        "power": 53,
+        "tier": "C"
+    },
+    {
+        "team-name": "Camellya Havoc Basic Attack",
+        "resonators": {
+            "main-dps": "Camellya",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 52,
+        "tier": "C"
+    },
+    {
+        "team-name": "Camellya Havoc Basic Attack I",
+        "resonators": {
+            "main-dps": "Camellya",
+            "sub-dps": "Sanhua",
+            "healer": "Shorekeeper"
+        },
+        "power": 52,
+        "tier": "C"
+    },
+    {
+        "team-name": "Camellya Havoc Basic Attack II",
+        "resonators": {
+            "main-dps": "Camellya",
+            "sub-dps": "Roccia",
+            "healer": "Shorekeeper"
+        },
+        "power": 51,
+        "tier": "C"
+    },
+    {
+        "team-name": "Xiangli Yao Electro Resonance Liberation",
+        "resonators": {
+            "main-dps": "Xiangli Yao",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 51,
+        "tier": "C"
+    },
+    {
+        "team-name": "Encore Fusion Basic Attack",
+        "resonators": {
+            "main-dps": "Encore",
+            "sub-dps": "Lupa",
+            "healer": "Mornye"
+        },
+        "power": 50,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack I",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Zhezhi",
+            "healer": "Shorekeeper"
+        },
+        "power": 50,
+        "tier": "C"
+    },
+    {
+        "team-name": "Xiangli Yao Electro Resonance Liberation I",
+        "resonators": {
+            "main-dps": "Xiangli Yao",
+            "sub-dps": "Yinlin",
+            "healer": "Verina"
+        },
+        "power": 49,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack II",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Yuanwu",
+            "healer": "Shorekeeper"
+        },
+        "power": 49,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack III",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Yuanwu",
+            "healer": "Verina"
+        },
+        "power": 48,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack IV",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Cantarella",
+            "healer": "Verina"
+        },
+        "power": 48,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack V",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Zhezhi",
+            "healer": "Buling"
+        },
+        "power": 47,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack VI",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Zhezhi",
+            "support": "Cantarella"
+        },
+        "power": 46,
+        "tier": "C"
+    },
+    {
+        "team-name": "Zhezhi Glacio Resonance Skill",
+        "resonators": {
+            "main-dps": "Zhezhi",
+            "sub-dps": "Yinlin",
+            "healer": "Youhu"
+        },
+        "power": 46,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack VII",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Cantarella",
+            "healer": "Buling"
+        },
+        "power": 45,
+        "tier": "C"
+    },
+    {
+        "team-name": "Jinhsi Spectro Coordinated Attack VIII",
+        "resonators": {
+            "main-dps": "Jinhsi",
+            "sub-dps": "Taoqi",
+            "healer": "Verina"
+        },
+        "power": 45,
+        "tier": "C"
+    },
+    {
+        "team-name": "Xiangli Yao Electro Resonance Liberation II",
+        "resonators": {
+            "main-dps": "Xiangli Yao",
+            "sub-dps": "Yinlin",
+            "healer": "Shorekeeper"
+        },
+        "power": 44,
+        "tier": "C"
+    },
+    {
+        "team-name": "Lingyang Glacio Basic Attack",
+        "resonators": {
+            "main-dps": "Lingyang",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 44,
+        "tier": "C"
+    },
+    {
+        "team-name": "Camellya Havoc Basic Attack III",
+        "resonators": {
+            "main-dps": "Camellya",
+            "sub-dps": "Sanhua",
+            "healer": "Baizhi"
+        },
+        "power": 43,
+        "tier": "C"
+    },
+    {
+        "team-name": "Lingyang Glacio Basic Attack I",
+        "resonators": {
+            "main-dps": "Lingyang",
+            "sub-dps": "Zhezhi",
+            "healer": "Shorekeeper"
+        },
+        "power": 43,
+        "tier": "C"
+    },
+    {
+        "team-name": "Xiangli Yao Electro Resonance Liberation III",
+        "resonators": {
+            "main-dps": "Xiangli Yao",
+            "sub-dps": "Jianxin",
+            "healer": "Shorekeeper"
+        },
+        "power": 42,
+        "tier": "C"
+    },
+    {
+        "team-name": "Xiangli Yao Electro Resonance Liberation IV",
+        "resonators": {
+            "main-dps": "Xiangli Yao",
+            "sub-dps": "Yangyang",
+            "healer": "Shorekeeper"
+        },
+        "power": 41,
+        "tier": "C"
+    },
+    {
+        "team-name": "Encore Fusion Quickswap",
+        "resonators": {
+            "main-dps": "Encore",
+            "sub-dps": "Changli",
+            "healer": "Shorekeeper"
+        },
+        "power": 41,
+        "tier": "C"
+    },
+    {
+        "team-name": "Encore Fusion Basic Attack I",
+        "resonators": {
+            "main-dps": "Encore",
+            "sub-dps": "Sanhua",
+            "healer": "Shorekeeper"
+        },
+        "power": 40,
+        "tier": "C"
+    },
+    {
+        "team-name": "Encore Fusion Basic Attack II",
+        "resonators": {
+            "main-dps": "Encore",
+            "sub-dps": "Brant",
+            "healer": "Shorekeeper"
+        },
+        "power": 40,
+        "tier": "C"
+    },
+    {
+        "team-name": "Danjin Havoc Hypercarry",
+        "resonators": {
+            "main-dps": "Danjin",
+            "sub-dps": "Mortefi",
+            "healer": "Shorekeeper"
+        },
+        "power": 39,
+        "tier": "C"
+    },
+    {
+        "team-name": "Danjin Havoc Hypercarry I",
+        "resonators": {
+            "main-dps": "Danjin",
+            "sub-dps": "Roccia",
+            "healer": "Shorekeeper"
+        },
+        "power": 39,
+        "tier": "C"
+    },
+    {
+        "team-name": "Yinlin Electro Coordinated Attack",
+        "resonators": {
+            "main-dps": "Yinlin",
+            "sub-dps": "Youhu",
+            "healer": "Shorekeeper"
+        },
+        "power": 38,
+        "tier": "C"
+    },
+    {
+        "team-name": "Danjin Havoc Hypercarry II",
+        "resonators": {
+            "main-dps": "Danjin",
+            "sub-dps": "Cantarella",
+            "healer": "Verina"
+        },
+        "power": 38,
+        "tier": "C"
+    },
+    {
+        "team-name": "Chixia Fusion Resonance Skill",
+        "resonators": {
+            "main-dps": "Chixia",
+            "sub-dps": "Lupa",
+            "support": "Brant"
+        },
+        "power": 37,
+        "tier": "C"
+    },
+    {
+        "team-name": "Calcharo Electro Resonance Liberation",
+        "resonators": {
+            "main-dps": "Calcharo",
+            "sub-dps": "Xiangli Yao",
+            "healer": "Shorekeeper"
+        },
+        "power": 37,
+        "tier": "C"
+    },
+    {
+        "team-name": "Havoc Rover Basic Attack",
+        "resonators": {
+            "main-dps": "Rover (Havoc)",
+            "sub-dps": "Roccia",
+            "healer": "Shorekeeper"
+        },
+        "power": 36,
+        "tier": "C"
+    },
+    {
+        "team-name": "Havoc Rover Basic Attack I",
+        "resonators": {
+            "main-dps": "Rover (Havoc)",
+            "sub-dps": "Danjin",
+            "healer": "Shorekeeper"
+        },
+        "power": 35,
+        "tier": "C"
+    },
+    {
+        "team-name": "Aalto Aero Hypercarry",
+        "resonators": {
+            "main-dps": "Aalto",
+            "sub-dps": "Ciaccona",
+            "healer": "Rover (Aero)"
+        },
+        "power": 35,
+        "tier": "C"
+    },
+    {
+        "team-name": "Lingyang Glacio Basic Attack II",
+        "resonators": {
+            "main-dps": "Lingyang",
+            "sub-dps": "Sanhua",
+            "healer": "Shorekeeper"
+        },
+        "power": 34,
+        "tier": "C"
+    },
+    {
+        "team-name": "Havoc Rover Basic Attack II",
+        "resonators": {
+            "main-dps": "Rover (Havoc)",
+            "sub-dps": "Sanhua",
+            "healer": "Verina"
+        },
+        "power": 34,
+        "tier": "C"
+    },
+    {
+        "team-name": "Havoc Rover Basic Attack III",
+        "resonators": {
+            "main-dps": "Rover (Havoc)",
+            "sub-dps": "Sanhua",
+            "healer": "Baizhi"
+        },
+        "power": 33,
+        "tier": "C"
+    },
+    {
+        "team-name": "Lumi Heavy Attack",
+        "resonators": {
+            "main-dps": "Lumi",
+            "sub-dps": "Sanhua",
+            "healer": "Shorekeeper"
+        },
+        "power": 33,
+        "tier": "C"
+    },
+    {
+        "team-name": "Calcharo Electro Resonance Liberation I",
+        "resonators": {
+            "main-dps": "Calcharo",
+            "sub-dps": "Yinlin",
+            "healer": "Shorekeeper"
+        },
+        "power": 32,
+        "tier": "C"
+    },
+    {
+        "team-name": "Calcharo Electro Resonance Liberation II",
+        "resonators": {
+            "main-dps": "Calcharo",
+            "sub-dps": "Lynae",
+            "healer": "Mornye"
+        },
+        "power": 32,
+        "tier": "C"
+    },
+    {
+        "team-name": "Chixia Fusion Resonance Skill I",
+        "resonators": {
+            "main-dps": "Chixia",
+            "sub-dps": "Changli",
+            "healer": "Shorekeeper"
+        },
+        "power": 31,
+        "tier": "C"
+    },
+    {
+        "team-name": "Calcharo Electro Resonance Liberation III",
+        "resonators": {
+            "main-dps": "Calcharo",
+            "sub-dps": "Jianxin",
+            "healer": "Verina"
+        },
+        "power": 31,
+        "tier": "C"
+    },
+    {
+        "team-name": "Chixia Fusion Resonance Skill II",
+        "resonators": {
+            "main-dps": "Chixia",
+            "sub-dps": "Yangyang",
+            "healer": "Baizhi"
+        },
+        "power": 30,
+        "tier": "C"
+    }
+]
